@@ -1,0 +1,255 @@
+/* container for moveis */
+/* this style does not apply  */
+.container-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30%;
+  background-color: #1f1e1e;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.movie-card a img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-card .film-title {
+  text-align: center;
+  font-weight: bold;
+  color: #ff0000; /* red color */
+}
+
+.movie-card .film-description {
+  text-align: center;
+  font-size: 0.875rem; /* 14px */
+}
+
+
+
+
+
+body {
+  background-color: rgb(26, 22, 22);
+  color: white;
+  display: inline;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+h{
+  color: #ff0000;
+  margin: 0%;
+  padding-left: 0%;
+  justify-content: left;
+  text-align:center;
+}
+
+h1 {
+  margin-top: 0;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.Container {
+  display: flex;
+  flex: direction=row;
+  flex-wrap: wrap;
+  gap: 100px;
+  
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(182, 226, 22);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 20px;
+  flex-basis: 100px;
+}
+
+div.movies {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.movie {
+  width: 30%;
+  height: 300px;
+  background-color: rgb(55, 56, 56);
+}
+
+image {
+  width: 100%;
+  height: 50%;
+}
+
+.Movie1 {
+  object-fit: fit;
+}
+
+header {
+  background-color: #ff0000;
+  color: #ff0000;
+}
+.footer {
+  background-color: rgb(32, 32, 32);
+  color: #ff0000;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #424141;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04aa6d;
+}
+p {
+  text-align: center;
+  justify-content: left;
+}
+.p {
+  background-color: #ff0000;
+  text-align: center;
+}
+div p {
+  padding: 20px 0px;
+}
+section p {
+  padding: 20px 0px;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+button{
+  color: white;
+  background-color: #ff0000;
+  
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;}
+
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #ff3300;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay-button:hover {
+  background-color: #0056b3;
+}
+
+h{
+  margin-left: 40px;
+}
+
+div.p{
+  background-color: #252525;
+}
+
